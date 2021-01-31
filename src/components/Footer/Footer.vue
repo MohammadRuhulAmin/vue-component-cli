@@ -1,5 +1,5 @@
 <template>
-    <div>Footer Section </div>
+    <div><p>Footer Section</p> </div>
 </template>
 
 <script>
@@ -9,6 +9,8 @@
 </script>
 
 <style>
-
+  p{
+    color: blueviolet;
+  }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div>
-      <CompHeader></CompHeader>
+      <CompHeader :myName="name"></CompHeader>
       <CompFooter></CompFooter>
     </div>
 </template>
@@ -10,6 +10,11 @@
 import CompHeader from './components/Header/Header';
 import CompFooter from './components/Footer/Footer';
 export default {
+  data(){
+    return {
+      name:"ruhul amin"
+    }
+  },
 
   components: {
     CompHeader,CompFooter
